@@ -1,0 +1,22 @@
+# примеры API-запросов
+
+@baseUrl = http://localhost:8000/api
+
+# создание датчика
+POST {{baseUrl}}/new_sensor/ESP50/Датчик в спальне/
+
+
+###
+
+# обновление датчика
+PATCH {{baseUrl}}/patch_sensor/2/датчик в зале/
+
+###
+
+# добавление измерения
+POST {{baseUrl}}/post_measurement/1/22.3/
+
+###
+
+# получение информации по датчику
+GET {{baseUrl}}/measurement/1/
