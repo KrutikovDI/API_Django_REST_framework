@@ -8,7 +8,7 @@ urlpatterns = [
     path('patch_sensor/<pk>/', Patch_sensorView.as_view()),
     path('post_measurement/', Post_measurementView.as_view()),
     path('sensors/', SensorsView.as_view()),
-    path('sensor/<pk>/', SensorView.as_view()),
+    path('measurement/<pk>/', SensorView.as_view()),
 
 ]
 
